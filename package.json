@@ -20,6 +20,14 @@
             "title": "Translit cyr -> lat"
         }]
     },
+    "homepage": "https://github.com/AlexPsilon/vscode-translit",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlexPsilon/vscode-translit.git"
+    },
+    "bugs": {
+        "url": "https://github.com/AlexPsilon/vscode-translit/issues"
+    },
     "scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test"
