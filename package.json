@@ -2,8 +2,8 @@
   "name": "translit",
   "displayName": "Translit",
   "icon": "img/icon.png",
-  "description": "Transliteration cyrillic to latin",
-  "version": "1.0.1",
+  "description": "Transliteration cyrillic to latin and slugify",
+  "version": "1.1.0",
   "publisher": "Psilon",
   "engines": {
     "vscode": "^1.13.0"
@@ -12,15 +12,23 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.translitCyrToLat"
+    "onCommand:extension.translitCyrToLat",
+    "onCommand:extension.translitSlug"
   ],
   "main": "./src/extension",
   "contributes": {
-    "commands": [{
-      "command": "extension.translitCyrToLat",
-      "title": "Translit: Cyrillic to Latin",
-      "description": "Transliteration cyrillic to latin"
-    }]
+    "commands": [
+      {
+        "command": "extension.translitCyrToLat",
+        "title": "Translit: Cyrillic to Latin",
+        "description": "Transliteration cyrillic to latin"
+      },
+      {
+        "command": "extension.translitSlug",
+        "title": "Translit: Slug",
+        "description": "Convert to slug"
+      }
+    ]
   },
   "homepage": "https://github.com/AlexPsilon/vscode-translit",
   "repository": {
