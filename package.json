@@ -3,7 +3,7 @@
   "displayName": "Translit",
   "icon": "img/icon.png",
   "description": "Transliteration cyrillic to latin and slugify",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "Psilon",
   "engines": {
     "vscode": "^1.13.0"
